@@ -1,0 +1,41 @@
+.overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.25rem;
+  margin: 0;
+}
+
+.overview-item dt {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.overview-item dd {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.overview-last {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.overview-time {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.overview-metric {
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.muted {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin: 0;
+}

@@ -1,0 +1,61 @@
+.run-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.run-button {
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-dim) 100%);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.6rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.run-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.run-schedule-label {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.run-schedule-time {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.run-cron {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.run-cron code {
+  font-size: 0.85em;
+  background: var(--bg);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
+
+.run-note,
+.run-warn {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+}
+
+.run-warn {
+  color: var(--warning);
+}
+
+.muted-inline {
+  color: var(--text-muted);
+}

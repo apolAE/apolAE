@@ -1,0 +1,29 @@
+.pill {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.pill-success {
+  background: rgba(52, 211, 153, 0.15);
+  color: var(--success);
+}
+
+.pill-failed {
+  background: rgba(248, 113, 113, 0.15);
+  color: var(--danger);
+}
+
+.pill-running {
+  background: rgba(61, 156, 245, 0.15);
+  color: var(--accent);
+}
+
+.pill-skipped {
+  background: rgba(139, 156, 179, 0.15);
+  color: var(--text-muted);
+}
