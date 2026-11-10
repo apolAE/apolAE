@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Pilot credentials — never commit (migrate to Azure Key Vault in phase 2)
+config/credentials.json
+
+*.log
+.DS_Store

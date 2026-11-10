@@ -1,0 +1,45 @@
+.table-wrap {
+  overflow-x: auto;
+}
+
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.activity-table th {
+  text-align: left;
+  padding: 0.5rem 0.65rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.activity-table td {
+  padding: 0.55rem 0.65rem;
+  border-bottom: 1px solid rgba(45, 63, 86, 0.5);
+  vertical-align: top;
+}
+
+.activity-table tbody tr:hover {
+  background: rgba(36, 48, 68, 0.4);
+}
+
+.activity-table .num {
+  font-variant-numeric: tabular-nums;
+}
+
+.activity-table .mono {
+  font-family: ui-monospace, monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.activity-table .msg {
+  max-width: 220px;
+  color: var(--text-muted);
+}
